@@ -1,0 +1,22 @@
+.btn {
+    cursor: pointer;
+    padding: 10px 30px;
+    margin: 5px;
+    color: teal;
+    font-size: 14px;
+    border-radius: 10px;
+    border: solid 1px teal;
+    background-color: transparent;
+    transition: all .3s ease-in;
+}
+
+.btn:hover{
+    color: white;
+    background-color: teal;
+}
+
+.btn:disabled{
+    color: gray;
+    background-color: transparent;
+    border-color: gray;
+}
